@@ -91,7 +91,7 @@
     <div class="content">
       An old friend of mine and an Ode to childhood:
        <p>"In fact, most of the troubles happen when we stop trying to be kids and behave more like grown-ups."</p>
-      <h6>Hayao miyaszki</h6>
+      <h6><a href="https://www.youtube.com/watch?v=1zi7jIZkS68&t=1240s" target="_blank">Hayao miyaszki</a></h6>
     </div>
   </div>
 
@@ -104,7 +104,7 @@
     >
       <img src="pixss.png" alt="pixss" width="32" />
     </a>
-    <a href="https://svelte.dev/" rel="noreferer noopener" target="_blank">
+    <a href="https://svelte.dev/" rel="noreferer noopener">
       <span
         class="iconify"
         data-icon="teenyicons:svelte-outline"
