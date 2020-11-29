@@ -82,7 +82,7 @@
   <header>
     <div class="space-between">
       <a href="/blog">
-        <img src="left.svg" alt="" width="20">
+        <span class="iconify" data-icon="codicon:chevron-left" data-inline="false"></span>
       </a>
       <p>{post.printDate} ~ {post.printReadingTime}</p>
     </div>

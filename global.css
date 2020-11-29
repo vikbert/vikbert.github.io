@@ -1,7 +1,7 @@
 /* over write the pixss.min.css */
 .main {
   background-color: white;
-  padding-top: 5rem;
+  padding-top: 8rem;
   margin-top: 0;
 }
 .topbar {
@@ -14,4 +14,13 @@ code {
 h1 {
   color: rgba(7, 7, 7, 0.152);
   font-size: 3.6rem;
+}
+
+/*
+ * ------------------------ .iconify
+*/
+.iconify {
+  color: black;
+  width: 40px;
+  height: 40px;
 }
