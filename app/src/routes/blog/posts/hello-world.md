@@ -3,10 +3,8 @@ title: Hello World
 date: "2019-06-11"
 ---
 
-Every blog starts with a single post. This is yours. Make it great.
+I haven't moved the articles to `vikbert.github.io`
 
 <!-- more -->
 
-This post intentionally left blank.
-
-Write what you want.
+in progress ...

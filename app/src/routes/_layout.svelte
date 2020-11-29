@@ -5,8 +5,8 @@
 </script>
 
 <div class="layout">
-  <Header {segment}/>
+  <Header {segment} />
   <main class="main">
-      <slot></slot>
+    <slot />
   </main>
 </div>

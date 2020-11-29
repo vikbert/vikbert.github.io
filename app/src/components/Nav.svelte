@@ -1,4 +1,5 @@
 <script>
+  import classNames from 'classnames';
   export let segment;
 </script>
 
@@ -20,7 +21,7 @@
   a::before {
     content: '';
     position: absolute;
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -41,7 +42,20 @@
 </style>
 
 <ul>
-  <li><a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a></li>
-  <li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-  <li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+  <li>
+    <a
+      class={classNames({ selected: segment === undefined })}
+      href=".">About</a>
+  </li>
+  <li>
+    <a
+      class={classNames({ selected: segment === 'projects' })}
+      href="projects">Projects</a>
+  </li>
+  <li>
+    <a
+      rel="prefetch"
+      class={classNames({ selected: segment === 'blog' })}
+      href="blog">Blog</a>
+  </li>
 </ul>
