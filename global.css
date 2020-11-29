@@ -1,16 +1,16 @@
 /* over write the pixss.min.css */
+main {
+  background-color: white;
+  padding-top: 2rem;
+}
 .topbar {
   box-shadow: none;
-}
-main .container {
-  min-height: 20rem;
-  /* max-width: 65rem; */
-  padding-top: 2rem;
+  background-color: white;
 }
 code {
   border: none !important;
 }
-.footer {
-  min-height: 2rem;
-  padding: 3rem 0;
+h1 {
+  color: rgba(7, 7, 7, 0.152);
+  font-size: 3.6rem;
 }
