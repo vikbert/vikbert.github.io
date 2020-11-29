@@ -7,6 +7,7 @@
     "build": "sapper build",
     "export": "sapper export",
     "start": "node __sapper__/build",
+    "serve" : "serve __sapper__/export",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
@@ -39,6 +40,7 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^7.0.2",
     "sapper": "^0.27.13",
+    "serve": "^11.3.2",
     "svelte": "^3.0.0"
   }
 }
