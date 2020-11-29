@@ -6,6 +6,7 @@ readonly GIT_REPO=https://github.com/vikbert/vikbert.github.io.git
 npm run export
 \cp -r ./__sapper__/export/* ../
 \cp README.md ../
+rm -rf ./__sapper__/export/*
 cd ..
 
 rm -rf node_modules
