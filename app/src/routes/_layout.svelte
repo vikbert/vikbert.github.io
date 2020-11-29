@@ -6,8 +6,7 @@
 
 <style>
   .container {
-    min-height: 20rem;
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
 </style>
 

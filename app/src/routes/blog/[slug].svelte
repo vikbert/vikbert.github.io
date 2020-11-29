@@ -29,6 +29,10 @@
   header p {
     color: rgb(148, 146, 146);
     text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 65rem;
   }
 </style>
 
@@ -74,17 +78,16 @@
 	<meta name="twitter:data2" value={post.printReadingTime} />
 </svelte:head>
 
-<header>
-  <div class="space-between">
-    <a href="/blog">
-      <img src="left.svg" alt="" width="20">
-    </a>
-    <p>{post.printDate} ~ {post.printReadingTime}</p>
-  </div>
-  <h1>{post.title}</h1>
-</header>
-
-<article class="content">
+<article class="container">
+  <header>
+    <div class="space-between">
+      <a href="/blog">
+        <img src="left.svg" alt="" width="20">
+      </a>
+      <p>{post.printDate} ~ {post.printReadingTime}</p>
+    </div>
+    <h1>{post.title}</h1>
+  </header>
   {@html post.html}
 </article>
 

@@ -17,7 +17,6 @@ import Project from '../components/Project.svelte'
       />
     </div>
     <div class="column">
-
     </div>
   </div>
 </div>
