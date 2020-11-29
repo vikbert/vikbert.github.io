@@ -45,10 +45,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+  h1 {
+    text-align: center;
+  }
 </style>
 
 <svelte:head>
-  <title>vikbert.github.io</title>
+  <title>Projects - Vikbert</title>
 </svelte:head>
 
 <div class="container">

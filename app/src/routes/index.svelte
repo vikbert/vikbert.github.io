@@ -18,25 +18,22 @@
 <div class="container centered-xy">
   <img src="me.jpg" alt="about me" />
   <h1>About Me</h1>
-  <p>
-    Hi, I'm a software engineer from Germany. I do a fullstack job at Schwarz
-    Gruppe(Berlin). Mostly I use the the
-    <strong>Symfony</strong>
-    framework for the web project and love the symfony packages and its
-    community.
-    <a
-      target="_blank"
-      href="https://connect.symfony.com/profile/vikbert"><strong>Here connect
-        with me.</strong></a>
-  </p>
 
   <p>
-    Sometimes I code also in open source world with both
-    <strong>React</strong>
-    and
-    <strong>Svelte</strong>. I am also interested in
-    <strong>DDD: Domain Driven Design</strong>
-    and am an absolute believer of both
+    Hi, I'm
+    <strong>Vikbert</strong>. This cybername comes from the names of my two
+    kids:
+    <strong>Vik</strong>toria & Al<strong>bert</strong>.
+  </p>
+  <p>
+    I work as a software engineer in Berlin and enjoy my fullstack job at
+    Schwarz Gruppe. Mostly I use the the Symfony framework
+    <a target="_blank" href="https://connect.symfony.com/profile/vikbert">
+      <strong>(connect me)</strong>
+    </a>
+    for the web projects at work and love the symfony components and its
+    community. I am interested in "Domain Driven Design" and become an absolute
+    believer of both
     <strong>Clean code</strong>
     and
     <strong>
@@ -47,10 +44,19 @@
   <p>
     I am
     <a href="https://www.exin.com/" target="_blank"><strong>EXIN</strong></a>
-    certificated
-    <span>Scrum Master</span>
-    and
-    <span>Product Owner</span>
-    and live in Agile software development at work.
+    certificated Scrum Master and Product Owner and live in Agile software
+    development at daily work.
   </p>
+
+  <p>
+    In my spare time, I just jump out of the world of Object-orientation and do
+    some lightweight coding in open-source world with both
+    <strong>React</strong>
+    and
+    <strong>Svelte</strong>.
+  </p>
+
+  <a href="/projects">
+    <button class="is-secondary is-rounded is-outlined">Explore some of my
+      projects</button></a>
 </div>
