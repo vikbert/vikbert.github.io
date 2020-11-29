@@ -7,7 +7,7 @@
   <nav class="topbar">
     <div class="container space-between">
       <a href="/">
-        <img alt="Sapper" src='me.jpg' width="30">
+        <img alt="Sapper" src='vikbert.svg' width="30">
       </a>
       <Nav {segment} />
     </div>
