@@ -1,7 +1,8 @@
 /* over write the pixss.min.css */
-main {
+.main {
   background-color: white;
-  padding-top: 2rem;
+  padding-top: 5rem;
+  margin-top: 0;
 }
 .topbar {
   box-shadow: none;

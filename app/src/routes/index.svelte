@@ -1,10 +1,10 @@
 <script>
   import Bio from '../components/Bio.svelte';
-import Header from '../components/Header.svelte';
-import Project from '../components/Project.svelte';
-import About from './about.svelte';
-import Index from './blog/index.svelte';
-import Error from './_error.svelte';
+  import Header from '../components/Header.svelte';
+  import Project from '../components/Project.svelte';
+  import About from './about.svelte';
+  import Index from './blog/index.svelte';
+  import Error from './_error.svelte';
   const projects = [
     {
       title: 'pixss',
