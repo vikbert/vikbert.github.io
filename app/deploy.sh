@@ -8,6 +8,7 @@ npm run export
 cd ..
 
 rm -rf node_modules
+rm -rf service-worker.js
 
 git add -A
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
