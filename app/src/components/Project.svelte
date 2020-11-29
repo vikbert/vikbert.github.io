@@ -5,7 +5,7 @@
 </script>
 
 <a href={url} target="_blank">
-  <div class="showcase card">
+  <div class="showcase">
     <div class="showcase-icon">
       <img src="presentation.svg" alt="image" width="40">
     </div>
@@ -22,5 +22,8 @@
   }
   a {
     color:black;
+    flex: 1 1 300px; /* 3 columsn */
+    flex: 1 1 500px; /* 2 columsn */
+    margin-bottom: 1.6rem;
   }
 </style>

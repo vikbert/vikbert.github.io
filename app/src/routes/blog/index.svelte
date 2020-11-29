@@ -11,7 +11,7 @@
 </script>
 
 <style>
-  h3,
+  h2,
   .post-item-footer {
     font-family: Rubik, sans-serif;
     font-weight: 700;
@@ -42,9 +42,9 @@
       <hr />
     {/if}
     <div class="post-item">
-      <h3>
+      <h2>
         <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
-      </h3>
+      </h2>
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>

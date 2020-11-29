@@ -25,7 +25,7 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #AAA;
+    background: rgb(129, 127, 127);
     transform: scaleX(0);
   }
 
@@ -35,7 +35,8 @@
   }
 
   .selected::before {
-    background: #1b1b1b;
+    font-weight: 500;
+    background: black;
   }
 </style>
 
