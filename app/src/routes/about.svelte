@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>About</title>
+  <title>About - vikbert</title>
 </svelte:head>
 
 <div class="container centered-xy">

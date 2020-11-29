@@ -32,7 +32,7 @@
 </style>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Blog - vikbert</title>
 </svelte:head>
 
 <div class="container">

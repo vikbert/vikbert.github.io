@@ -4,7 +4,7 @@ import Bio from '../components/Bio.svelte'
 </script>
 
 <svelte:head>
-  <title>Sapper Blog Template</title>
+  <title>vikbert.github.io</title>
 </svelte:head>
 
 <div class="container">
