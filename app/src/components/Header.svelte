@@ -16,10 +16,9 @@
 
 <style>
   img {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 4rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
     display: block;
-    margin-left: 2rem;
   }
 </style>

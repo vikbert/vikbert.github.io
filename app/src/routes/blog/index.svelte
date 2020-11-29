@@ -11,9 +11,6 @@
 </script>
 
 <style>
-  h1 {
-    color: #05050529;
-  }
   h3,
   .post-item-footer {
     font-family: Rubik, sans-serif;

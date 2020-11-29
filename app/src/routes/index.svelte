@@ -1,5 +1,6 @@
 <script>
 import Project from '../components/Project.svelte'
+import Bio from '../components/Bio.svelte'
 </script>
 
 <svelte:head>
@@ -7,7 +8,8 @@ import Project from '../components/Project.svelte'
 </svelte:head>
 
 <div class="container">
-  <h3>My Projects</h3>
+ <div>
+  <h1>My Projects</h1>
   <div class="row">
     <div class="column">
       <Project
@@ -19,14 +21,15 @@ import Project from '../components/Project.svelte'
     <div class="column">
     </div>
   </div>
+ </div>
+  <!-- <Bio/> -->
 </div>
 
 <style>
-  h3 {
-    opacity: .65;
-    font-weight: 400;
-  }
   .container {
     max-width: 112.0rem !important;
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 1fr 15rem;
   }
 </style>

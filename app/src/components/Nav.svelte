@@ -10,7 +10,7 @@
     padding: 10px 5px;
     display: block;
     position: relative;
-    margin-left: 20px;
+    margin-left: 1rem;
   }
 
   a:not(.selected) {
