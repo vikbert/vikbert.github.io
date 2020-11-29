@@ -28,7 +28,10 @@
   <p>
     I work as a software engineer in Berlin and enjoy my fullstack job at
     Schwarz Gruppe. Mostly I use the the Symfony framework
-    <a target="_blank" href="https://connect.symfony.com/profile/vikbert">
+    <a
+      target="_blank"
+      href="https://connect.symfony.com/profile/vikbert"
+      rel="noreferrer">
       <strong>(connect me)</strong>
     </a>
     for the web projects at work and love the symfony components and its
@@ -37,13 +40,18 @@
     <strong>Clean code</strong>
     and
     <strong>
-      <a href="http://manifesto.softwarecraftsmanship.org/">Craftsman Manifesto</a>
+      <a
+        href="http://manifesto.softwarecraftsmanship.org/"
+        rel="noreferrer">Craftsman Manifesto</a>
     </strong>.
   </p>
 
   <p>
     I am
-    <a href="https://www.exin.com/" target="_blank"><strong>EXIN</strong></a>
+    <a
+      href="https://www.exin.com/"
+      target="_blank"
+      rel="noreferrer"><strong>EXIN</strong></a>
     certificated Scrum Master and Product Owner and live in Agile software
     development at daily work.
   </p>
@@ -57,6 +65,8 @@
   </p>
 
   <a href="/projects">
-    <button class="is-secondary is-rounded is-outlined">Explore some of my
-      projects</button></a>
+    <button class="is-secondary is-rounded is-outlined">
+      Explore some of my projects
+    </button>
+  </a>
 </div>

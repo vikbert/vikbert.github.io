@@ -22,7 +22,7 @@
   }
 </style>
 
-<a href={url} target="_blank">
+<a href={url} target="_blank" rel="noreferrer">
   <div class="showcase">
     <div class="showcase-icon">
       {@html icon}

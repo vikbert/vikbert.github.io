@@ -28,7 +28,7 @@
     <strong>Clean code</strong>
     and
     <strong>
-      <a href="http://manifesto.softwarecraftsmanship.org/">Craftsman Manifesto</a>
+      <a rel="noreferrer" href="http://manifesto.softwarecraftsmanship.org/">Craftsman Manifesto</a>
     </strong>.
   </p>
 </div>
