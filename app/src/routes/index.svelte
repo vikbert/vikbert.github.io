@@ -1,5 +1,5 @@
 <style>
-  img {
+  img.avatar {
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -16,6 +16,9 @@
     font-size: 13px;
     text-align: center;
   }
+  .stack a {
+    margin: 0 1rem;
+  }
 </style>
 
 <svelte:head>
@@ -23,7 +26,7 @@
 </svelte:head>
 
 <div class="container text-centered">
-  <img src="me.jpg" alt="about me" />
+  <img class="avatar" src="me.jpg" alt="about me" />
   <h1>About Me</h1>
 
   <p>
@@ -79,6 +82,9 @@
 
   <div class="stack">
     <div class="my-1">Experimental Builds With</div>
+    <a href="https://vikbert.github.io/pixss/" rel="noreferer noopener" target="_blank">
+      <img src="pixss.png" alt="pixss" width="32">
+    </a>
     <a href="https://svelte.dev/" rel="noreferer noopener" target="_blank">
       <span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false" />
     </a>
