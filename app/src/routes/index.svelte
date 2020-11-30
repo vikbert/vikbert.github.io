@@ -1,13 +1,24 @@
+<script>
+  import ExternalLink from '../components/atom/ExternalLink.svelte';
+</script>
+
 <style>
   img {
     width: 100px;
     height: 100px;
     border-radius: 100px;
     display: block;
-    margin: 20px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .container {
     max-width: 65rem;
+  }
+  .stack {
+    margin-top: 10rem;
+    font-size: 13px;
+    text-align: center;
   }
 </style>
 
@@ -15,7 +26,7 @@
   <title>About - vikbert</title>
 </svelte:head>
 
-<div class="container centered-xy">
+<div class="container text-centered">
   <img src="me.jpg" alt="about me" />
   <h1>About Me</h1>
 
@@ -69,4 +80,14 @@
       Explore some of my projects
     </button>
   </a>
+
+  <div class="stack">
+    <div class="my-1">Experimental Builds With</div>
+    <ExternalLink url="https://svelte.dev/">
+      <span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false" />
+    </ExternalLink>
+    <ExternalLink url="https://www.markdownguide.org/">
+      <span class="iconify" data-icon="bi:markdown" data-inline="false" />
+    </ExternalLink>
+  </div>
 </div>

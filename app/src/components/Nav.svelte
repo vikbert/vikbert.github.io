@@ -52,10 +52,10 @@
       class={classNames({ selected: segment === 'projects' })}
       href="projects">Projects</a>
   </li>
-  <li>
+  <!-- <li>
     <a
       rel="prefetch"
       class={classNames({ selected: segment === 'blog' })}
       href="blog">Blog</a>
-  </li>
+  </li> -->
 </ul>

@@ -24,5 +24,6 @@
 ```
 
 ## icons
+[iconify](https://iconify.design/)
 [Codicons](https://iconify.design/icon-sets/codicon/)
 [File icons](https://iconify.design/icon-sets/file-icons/)
