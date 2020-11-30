@@ -1,7 +1,3 @@
-<script>
-  import ExternalLink from '../components/atom/ExternalLink.svelte';
-</script>
-
 <style>
   img {
     width: 100px;
@@ -83,11 +79,11 @@
 
   <div class="stack">
     <div class="my-1">Experimental Builds With</div>
-    <ExternalLink url="https://svelte.dev/">
+    <a href="https://svelte.dev/" rel="noreferer noopener" target="_blank">
       <span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false" />
-    </ExternalLink>
-    <ExternalLink url="https://www.markdownguide.org/">
+    </a>
+    <a href="https://www.markdownguide.org/" rel="noreferer noopener" target="_blank">
       <span class="iconify" data-icon="bi:markdown" data-inline="false" />
-    </ExternalLink>
+    </a>
   </div>
 </div>

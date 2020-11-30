@@ -43,14 +43,10 @@
 
 <ul>
   <li>
-    <a
-      class={classNames({ selected: segment === undefined })}
-      href=".">About</a>
+    <a class={segment === undefined ? 'selected' : ''} href=".">About</a>
   </li>
   <li>
-    <a
-      class={classNames({ selected: segment === 'projects' })}
-      href="projects">Projects</a>
+    <a class={segment === 'projects' ? 'selected' : ''} href="projects">Projects</a>
   </li>
   <!-- <li>
     <a
