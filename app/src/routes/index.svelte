@@ -45,8 +45,7 @@
       <strong>(sf connect)</strong>
     </a>
     for the web projects and love its decoupled and resuable components.
-    I am interested also in "Domain Driven Design" and become an absolute
-    believer of both
+    I am also interested in "Domain Driven Design" and believe in both
     <strong>Clean code</strong>
     and
     <strong>
@@ -62,7 +61,7 @@
       href="https://www.exin.com/"
       target="_blank"
       rel="noreferrer"><strong>EXIN</strong></a>
-    certificated Scrum Master and Product Owner and live actively in Agile
+    certificated Scrum Master and live actively in Agile
     Software Development for daily work. In my experience, agile sofware
     development is about "People first, transparency and constantly improving".
     For that vision, I follow the
