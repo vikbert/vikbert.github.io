@@ -49,9 +49,9 @@
     <a class={segment === 'projects' ? 'selected' : ''} href="projects">Projects</a>
   </li>
   <li>
-    <a
+    <!-- <a
       rel="prefetch"
       class={classNames({ selected: segment === 'blog' })}
-      href="blog">Blog</a>
+      href="blog">Blog</a> -->
   </li>
 </ul>
