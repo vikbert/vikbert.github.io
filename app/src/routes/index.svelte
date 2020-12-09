@@ -79,11 +79,14 @@
     <strong>Svelte</strong>.
   </p>
 
-  <a href="/projects">
-    <button class="is-secondary is-rounded is-outlined">
-      Explore some of my projects
-    </button>
-  </a>
+  <div class="centered-xy">
+    <img src="my-github.png" alt="github" width="160">
+    <a href="/projects">
+      <button class="is-secondary is-rounded is-outlined">
+        Explore some of my projects
+      </button>
+    </a>
+  </div>
 
   <div class="stack">
     <div class="my-1">Experimental Builds With</div>

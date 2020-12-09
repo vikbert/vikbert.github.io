@@ -55,7 +55,9 @@
 </svelte:head>
 
 <div class="container">
-  <h1>My Projects</h1>
+  <div class="centered-xy my-2">
+    <img src="my-github.png" alt="github" width="160">
+  </div>
   <div class="projects">
     {#each projects as projectData}
       <Project {...projectData} />
