@@ -56,7 +56,7 @@
 
 <div class="container">
   <div class="centered-xy my-2">
-    <img src="my-github.png" alt="github" width="300">
+    <h1>Projects</h1>
   </div>
   <div class="projects">
     {#each projects as projectData}

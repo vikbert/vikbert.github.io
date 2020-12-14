@@ -80,7 +80,6 @@
   </p>
 
   <div class="centered-xy">
-    <img src="my-github.png" alt="github" width="160">
     <a href="/projects">
       <button class="is-secondary is-rounded is-outlined">
         Explore some of my projects
