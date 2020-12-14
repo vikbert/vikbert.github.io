@@ -18,6 +18,14 @@
         '<span class="iconify" data-icon="teenyicons:firebase-outline" data-inline="false"></span>',
     },
     {
+      title: 'NuTab',
+      info:
+        'Another Chrome extension to increase the productivity with the following features: manage Todos, quick search your bookmarks, add add a text note from everywhere.',
+      url: 'https://github.com/vikbert/nutab',
+      icon:
+        '<span class="iconify" data-icon="ant-design:chrome-outlined" data-inline="false"></span>',
+    },
+    {
       title: 'Appikon',
       info:
         'A simple mobile app icon generator to save up the time to create the app icon for both native app or web app',
