@@ -5,7 +5,7 @@
       title: 'PiXSS',
       info:
         'A lightweight css framework for minimalist. Create a wonderful website with minimal utitily class set. Small but good enough.',
-      url: 'https://github.com/vikbert/pixss',
+      url: 'https://vikbert.github.io/pixss/',
       icon:
         '<span class="iconify" data-icon="ion:logo-sass" data-inline="false"></span>',
     },
