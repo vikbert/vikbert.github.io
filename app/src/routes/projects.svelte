@@ -47,7 +47,7 @@
         'A couple of shell scripts for setting up the web dev environment in MacOS',
       url: 'https://github.com/vikbert/awesome-macbook-setup',
       icon:
-        '<span class="iconify" data-icon="wpf:mac-os" data-inline="false"></span>',
+        '<span class="iconify" data-icon="carbon:mac-command" data-inline="false"></span>',
     },
   ];
 </script>
