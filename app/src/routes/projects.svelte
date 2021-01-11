@@ -41,6 +41,14 @@
       icon:
         '<span class="iconify" data-icon="ant-design:chrome-outlined" data-inline="false"></span>',
     },
+    {
+      title: 'My MacOS Dev setup scripts',
+      info:
+        'A couple of shell scripts for setting up the web dev environment in MacOS',
+      url: 'https://github.com/vikbert/awesome-macbook-setup',
+      icon:
+        '<span class="iconify" data-icon="wpf:mac-os" data-inline="false"></span>',
+    },
   ];
 </script>
 
