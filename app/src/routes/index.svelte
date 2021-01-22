@@ -73,10 +73,8 @@
 
   <p>
     In my spare time, I just jump out of the world of <strong>server-side programming</strong> and do
-    some reactive & functional programming in open-source world with both
-    <strong>React</strong>
-    and
-    <strong>Svelte</strong>.
+    some reactive & functional programming in open-source world with
+    <strong>TypeScript</strong>, <strong>React.js</strong>,<strong>Svelte</strong>.
   </p>
 
   <div class="centered-xy">
