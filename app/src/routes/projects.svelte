@@ -10,6 +10,14 @@
         '<span class="iconify" data-icon="ion:logo-sass" data-inline="false"></span>',
     },
     {
+      title: 'SSOmoc',
+      info:
+        'Single-Sign-On Proof of concept in symfony 5 standard project',
+      url: 'https://github.com/vikbert/ssomoc',
+      icon:
+        '<span class="iconify" data-icon="logos:symfony" data-inline="false"></span>',
+    },
+    {
       title: 'FirePoll',
       info:
         'A realtime Voting App based on firebase, redux and React: responsive design powered by React Material UI',
@@ -48,14 +56,6 @@
       url: 'https://github.com/vikbert/awesome-macbook-setup',
       icon:
         '<span class="iconify" data-icon="carbon:mac-command" data-inline="false"></span>',
-    },
-    {
-      title: 'SSOmoc',
-      info:
-        'Single-Sign-On Proof of concept in symfony 5 standard project',
-      url: 'https://github.com/vikbert/ssomoc',
-      icon:
-        '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>',
     },
   ];
 </script>
