@@ -74,7 +74,7 @@
   <p>
     In my spare time, I just jump out of the world of <strong>server-side programming</strong> and do
     some reactive & functional programming in open-source world with
-    <strong>TypeScript</strong>, <strong>React.js</strong>,<strong>Svelte</strong>.
+    <strong>TypeScript</strong>, <strong>React.js</strong>, <strong>Svelte.js</strong>, and <strong>Firebase</strong>.
   </p>
 
   <div class="centered-xy">
