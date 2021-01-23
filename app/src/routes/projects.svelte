@@ -49,6 +49,14 @@
       icon:
         '<span class="iconify" data-icon="carbon:mac-command" data-inline="false"></span>',
     },
+    {
+      title: 'SSOmoc',
+      info:
+        'Single-Sign-On Proof of concept in symfony 5 standard project',
+      url: 'https://github.com/vikbert/ssomoc',
+      icon:
+        '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>',
+    },
   ];
 </script>
 
