@@ -65,6 +65,22 @@
       icon:
         '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
     },
+    {
+      title: 'maksr',
+      info:
+        'A realtime mask radar built with Vue.js for Google Map. The test data is found in internet, and is not real.',
+      url: 'https://github.com/vikbert/maskr/',
+      icon:
+        '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
+    },
+    {
+      title: 'BookStore',
+      info:
+        'BookStore demp app built with Svelte 3 and mocked REST API',
+      url: 'https://github.com/vikbert/svelete-bookstore',
+      icon:
+        '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
+    },
   ];
 </script>
 
