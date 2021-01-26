@@ -15,7 +15,7 @@
         'Single-Sign-On Proof of concept in symfony 5 standard project',
       url: 'https://github.com/vikbert/ssomoc',
       icon:
-        '<span class="iconify" data-icon="logos:symfony" data-inline="false"></span>',
+        '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>',
     },
     {
       title: 'FirePoll',
@@ -60,7 +60,7 @@
     {
       title: 'NineS',
       info:
-        'My personal technical notes',
+        'My minimals technical notes',
       url: 'https://vikbert.github.io/nines/',
       icon:
         '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
