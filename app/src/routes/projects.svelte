@@ -60,7 +60,7 @@
     {
       title: 'NineS',
       info:
-        'My minimals technical notes',
+        'My mini technical notes, build with vue.js and markdown.',
       url: 'https://vikbert.github.io/nines/',
       icon:
         '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
