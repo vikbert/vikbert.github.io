@@ -57,6 +57,14 @@
       icon:
         '<span class="iconify" data-icon="carbon:mac-command" data-inline="false"></span>',
     },
+    {
+      title: 'NineS',
+      info:
+        'My personal technical notes',
+      url: 'https://vikbert.github.io/nines/',
+      icon:
+        '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
+    },
   ];
 </script>
 
