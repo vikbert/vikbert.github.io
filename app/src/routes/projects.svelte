@@ -104,7 +104,7 @@
 
 <div class="container">
   <div class="centered-xy my-2">
-    <h1>Projects</h1>
+    <h1>Some prime projects</h1>
   </div>
   <div class="projects">
     {#each projects as projectData}
