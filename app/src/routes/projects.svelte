@@ -66,7 +66,7 @@
         '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
     },
     {
-      title: 'maksr',
+      title: 'maskr',
       info:
         'A realtime mask radar built with Vue.js for Google Map. The test data is found in internet, and is not real.',
       url: 'https://github.com/vikbert/maskr/',
