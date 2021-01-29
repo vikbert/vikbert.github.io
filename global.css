@@ -9,8 +9,14 @@
   box-shadow: none;
   background-color: white;
 }
-code {
+pre {
+  border-radius: 10px;
+}
+pre code {
   border: none !important;
+}
+code[class*=language-] {
+  font-size: 14px;
 }
 h1 {
   color: rgba(7, 7, 7, 0.152);
@@ -26,4 +32,9 @@ h1 {
   color: black;
   width: 40px;
   height: 40px;
+}
+
+.yellow {
+  display: inline;
+  background-color: #ffff6d7e;
 }
