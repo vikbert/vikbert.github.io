@@ -1,6 +1,6 @@
 ---
 title: Symfony with SSO
-date: "2019-03-21"
+date: "2021-01-21"
 ---
 
 Symfony provides support for the most common authentication mechanisms.
@@ -11,4 +11,4 @@ within special organization, you are able to create the custom authentication pr
 <!-- more -->
 
 
-[siam doc](https://itdoc.schwarz/display/CARSALES/SIAM+Prozessbeschreibung)
+in progress ...
