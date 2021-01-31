@@ -81,6 +81,14 @@
       icon:
         '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
     },
+    {
+      title: 'speedor',
+      info:
+        'Test the internet connection speed and ping speedtest.net from the CLI',
+      url: 'https://github.com/vikbert/speedor',
+      icon:
+        '<span class="iconify" data-icon="mdi:speedometer-medium" data-inline="false"></span>',
+    },
   ];
 </script>
 
