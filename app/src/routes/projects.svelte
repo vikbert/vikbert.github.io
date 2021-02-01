@@ -76,7 +76,7 @@
     {
       title: 'BookStore',
       info:
-        'BookStore demp app built with Svelte 3 and mocked REST API',
+        'BookStore: a experimental app built with Svelte 3 and mocked REST API as I started learning svelte.js',
       url: 'https://github.com/vikbert/svelete-bookstore',
       icon:
         '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
