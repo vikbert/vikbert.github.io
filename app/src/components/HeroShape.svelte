@@ -54,7 +54,7 @@
   }
 
   .custom-shape-divider-bottom-1612620392 .shape-fill {
-    fill: #f7fafc;
+    fill: #ffffff;
   }
 
   /** For tablet devices **/

@@ -1,6 +1,6 @@
 <script>
   import HeroShape from '../components/HeroShape.svelte';
-import Project from '../components/Project.svelte';
+  import Project from '../components/Project.svelte';
   const projects = [
     {
       title: 'PiXSS',
@@ -12,8 +12,7 @@ import Project from '../components/Project.svelte';
     },
     {
       title: 'SSOmoc',
-      info:
-        'Single-Sign-On Proof of concept in symfony 5 standard project',
+      info: 'Single-Sign-On Proof of concept in symfony 5 standard project',
       url: 'https://github.com/vikbert/ssomoc',
       icon:
         '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>',
@@ -60,8 +59,7 @@ import Project from '../components/Project.svelte';
     },
     {
       title: 'NineS',
-      info:
-        'My mini technical notes, build with vue.js and markdown.',
+      info: 'My mini technical notes, build with vue.js and markdown.',
       url: 'https://vikbert.github.io/nines/',
       icon:
         '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
@@ -98,8 +96,33 @@ import Project from '../components/Project.svelte';
       icon:
         '<span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false"></span>',
     },
+    {
+      title: 'Masanfit',
+      info:
+        'A minimal fitness timer made for interval training.',
+      url: 'https://github.com/vikbert/masanfit',
+      icon:
+        '<span class="iconify" data-icon="ion:fitness-outline" data-inline="false"></span>',
+    },
   ];
 </script>
+
+<svelte:head>
+  <title>Projects - Vikbert</title>
+</svelte:head>
+
+<HeroShape color="is-secondary text-centered">
+  <h2 class="opacity-50">Prime Projects</h2>
+</HeroShape>
+
+<div class="container">
+  <div class="centered-xy my-2" />
+  <div class="projects">
+    {#each projects as projectData}
+      <Project {...projectData} />
+    {/each}
+  </div>
+</div>
 
 <style>
   .container {
@@ -111,20 +134,3 @@ import Project from '../components/Project.svelte';
     flex-wrap: wrap;
   }
 </style>
-
-<svelte:head>
-  <title>Projects - Vikbert</title>
-</svelte:head>
-
-<HeroShape color='is-secondary text-centered'>
-  <h2 class="opacity-50">Prime Projects</h2>
-</HeroShape>
-
-<div class="container">
-  <div class="centered-xy my-2"/>
-  <div class="projects">
-    {#each projects as projectData}
-      <Project {...projectData} />
-    {/each}
-  </div>
-</div>

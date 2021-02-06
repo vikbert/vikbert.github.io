@@ -79,7 +79,7 @@
   </div>
 
   <div class="stack">
-    <div class="my-1">Experimental Builds With</div>
+    <div class="my-1">Built With</div>
     <a
       href="https://vikbert.github.io/pixss/"
       rel="noreferer noopener"
