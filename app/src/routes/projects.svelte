@@ -1,5 +1,6 @@
 <script>
-  import Project from '../components/Project.svelte';
+  import HeroShape from '../components/HeroShape.svelte';
+import Project from '../components/Project.svelte';
   const projects = [
     {
       title: 'PiXSS',
@@ -39,7 +40,7 @@
         'A simple mobile app icon generator to save up the time to create the app icon for both native app or web app',
       url: 'https://github.com/vikbert/appikon',
       icon:
-        '<span class="iconify" data-icon="file-icons:test-react" data-inline="false"></span>',
+        '<span class="iconify" data-icon="ri:reactjs-fill" data-inline="false"></span>',
     },
     {
       title: 'YiTab',
@@ -79,7 +80,7 @@
         'BookStore: a experimental app built with Svelte 3 and mocked REST API as I started learning svelte.js',
       url: 'https://github.com/vikbert/svelete-bookstore',
       icon:
-        '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
+        '<span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false"></span>',
     },
     {
       title: 'speedor',
@@ -88,6 +89,14 @@
       url: 'https://github.com/vikbert/speedor',
       icon:
         '<span class="iconify" data-icon="mdi:speedometer-medium" data-inline="false"></span>',
+    },
+    {
+      title: 'sf-components',
+      info:
+        'A smart full list of Symfony components for simple search and category.',
+      url: 'https://github.com/vikbert/sf-components',
+      icon:
+        '<span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false"></span>',
     },
   ];
 </script>
@@ -101,19 +110,18 @@
     display: flex;
     flex-wrap: wrap;
   }
-  h1 {
-    text-align: center;
-  }
 </style>
 
 <svelte:head>
   <title>Projects - Vikbert</title>
 </svelte:head>
 
+<HeroShape color='is-secondary text-centered'>
+  <h2 class="opacity-50">Prime Projects</h2>
+</HeroShape>
+
 <div class="container">
-  <div class="centered-xy my-2">
-    <h1>Some prime projects</h1>
-  </div>
+  <div class="centered-xy my-2"/>
   <div class="projects">
     {#each projects as projectData}
       <Project {...projectData} />

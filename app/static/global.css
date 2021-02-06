@@ -1,13 +1,13 @@
 /* over write the pixss.min.css */
 .main {
-  background-color: white;
-  padding-top: 8rem;
+  background-color: #f7fafc;
+  padding-top: 6rem;
   margin-top: 0;
   min-height: 85vh;
 }
 .topbar {
   box-shadow: none;
-  background-color: white;
+  background-color: #f7fafc;
 }
 pre {
   border-radius: 10px;

@@ -7,6 +7,8 @@
 </script>
 
 <script>
+import HeroShape from "../../components/HeroShape.svelte";
+
   export let posts;
 </script>
 
@@ -35,8 +37,11 @@
   <title>Blog - vikbert</title>
 </svelte:head>
 
+<HeroShape color="is-info">
+  <h2 class="text-centered opacity-50">Blog</h2>
+</HeroShape>
+
 <div class="container">
-  <h1>Blog</h1>
   {#each posts as post, index}
     {#if index}
       <hr />
