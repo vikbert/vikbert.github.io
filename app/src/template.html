@@ -1,40 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1.0'>
-  <meta name="Description" content="Author: Xun Zhou, vikbert, vikbert.github.io">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Author: Xun Zhou, vikbert, vikbert.github.io"
+    />
 
-  <!-- favicon config -->
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#ffffff">
-  <!-- favicon config -->
+    <!-- favicon config -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- favicon config -->
 
-	%sapper.base%
+    %sapper.base%
 
-  <link rel="stylesheet" href="pixss.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css">
-  <link rel='stylesheet' href='global.css'>
+    <link
+      rel="stylesheet"
+      href="https://vikbert.github.io/pixss/build/styles/pixss.min.css"
+      noreferer
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css"
+    />
+    <link rel="stylesheet" href="global.css" />
 
-	<!-- Sapper generates a <style> tag containing critical CSS
+    <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
        lazily loaded when it precaches secondary pages -->
-	%sapper.styles%
+    %sapper.styles%
 
-	<!-- This contains the contents of the <svelte:head> component, if
+    <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-	%sapper.head%
-</head>
-<body>
-	<!-- The application will be rendered inside this element,
+    %sapper.head%
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
 	     because `app/client.js` references it -->
-	<div id='sapper'>%sapper.html%</div>
+    <div id="sapper">%sapper.html%</div>
 
-	<!-- Sapper creates a <script> tag containing `app/client.js`
+    <!-- Sapper creates a <script> tag containing `app/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-  %sapper.scripts%
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-</body>
+    %sapper.scripts%
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </body>
 </html>
