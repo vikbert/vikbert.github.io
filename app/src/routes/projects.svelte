@@ -8,16 +8,14 @@
         'A lightweight css framework for minimalist. Create a wonderful website with minimal utitily class set. Small but good enough.',
       demo: 'https://vikbert.github.io/pixss/',
       repository: 'vikbert/pixss',
-      icon:
-        '<span class="iconify" data-icon="ion:logo-sass" data-inline="false"></span>',
+      tags: ['sass', 'svelte', 'vue'],
     },
     {
       title: 'SSOmoc',
       info: 'Single-Sign-On Proof of concept in symfony 5 standard project',
       demo: 'https://github.com/vikbert/ssomoc',
       repository: 'vikbert/ssomoc',
-      icon:
-        '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>',
+      tags: ['symfony', 'php', 'sass'],
     },
     {
       title: 'FirePoll',
@@ -25,8 +23,7 @@
         'A realtime Voting App based on firebase, redux and React: responsive design powered by React Material UI',
       demo: 'https://github.com/vikbert/firepoll',
       repository: 'vikbert/firepoll',
-      icon:
-        '<span class="iconify" data-icon="teenyicons:firebase-outline" data-inline="false"></span>',
+      tags: ['react', 'material-ui', 'firebase'],
     },
     {
       title: 'NuTab',

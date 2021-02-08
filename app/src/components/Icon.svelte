@@ -27,7 +27,11 @@
         break;
       case 'symfony':
         iconHtml =
-          '<span class="iconify" data-icon="la:symfony" data-inline="false"></span>';
+          '<span class="iconify" data-icon="mdi:symfony" data-inline="false"></span>';
+        break;
+      case 'firebase':
+        iconHtml =
+          '<span class="iconify" data-icon="bx:bxl-firebase" data-inline="false"></span>';
         break;
       case 'macos':
         iconHtml =

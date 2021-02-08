@@ -69,7 +69,7 @@ import Icon from "./Icon.svelte";
     opacity: 50%;
   }
   .tags span {
-    padding: 0 10px;
+    padding-right: 8px;
   }
   .action {
     border-top: 1px solid #dededeaf;
