@@ -1,4 +1,6 @@
 <script>
+import Icon from "./Icon.svelte";
+
   export let title;
   export let info;
   export let demo;
@@ -7,40 +9,22 @@
   export let tags = [
     'react',
     'svelte',
-    'typescript',
-    'php',
-    'symfony',
-    'material-ui',
-    'ddd',
-    'webpack',
-    'rollup',
+    'vue',
   ];
 </script>
 
 <div class="card shadow-lg">
-  <div class="figure">
-    <img
-      src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3298&q=80"
-      alt=""
-    />
-  </div>
   <div class="content">
-    <a href={demo} target="_blank">
-      <h4>{title}</h4>
-    </a>
-    <div class="tags">
-      <span
-        class="iconify"
-        data-icon="mdi:speedometer-medium"
-        data-inline="false"
-      />
-      <span
-        class="iconify"
-        data-icon="teenyicons:svelte-outline"
-        data-inline="false"
-      />
-      <span class="iconify" data-icon="logos:markdown" data-inline="false" />
-      <span class="iconify" data-icon="ion:logo-sass" data-inline="false" />
+    <div class="headline">
+      <a href={demo} target="_blank">
+        <h4>{title}</h4>
+      </a>
+    </div>
+    <div class="tags py-1">
+      <span>Tags:</span>
+      {#each tags as tag}
+         <Icon name={tag}/>
+      {/each}
     </div>
     <p class="info">{info}</p>
   </div>
@@ -53,7 +37,7 @@
       <a href={'http://github.com/' + repository} target="_blank">
         <span>{repository}</span>
       </a>
-    <span class="">MIT</span>
+    <span class="licence opacity-75">MIT</span>
   </div>
 </div>
 
@@ -77,6 +61,16 @@
     overflow: hidden;
     margin: 1rem 0;
   }
+  .tags {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    overflow: hidden;
+    opacity: 50%;
+  }
+  .tags span {
+    padding: 0 10px;
+  }
   .action {
     border-top: 1px solid #dededeaf;
     height: 50px;
@@ -85,15 +79,19 @@
     grid-template-columns: 30px 1fr 30px;
     align-items: center;
   }
-  .card .iconify {
-    width: 25px;
-    height: 20px;
-    line-height: 20px;
-    margin-right: 10px;
+  .licence {
+    font-size: 13px;
   }
   a {
     color: black;
     font-weight: 500;
+  }
+  .headline {
+    height: 43px;
+    overflow: hidden;
+  }
+  h4:hover {
+    opacity: 50%;
   }
   /* a {
     color: black;

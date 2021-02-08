@@ -7,7 +7,7 @@
   <title>About - vikbert</title>
 </svelte:head>
 
-<HeroShape color='is-primary'>
+<HeroShape color="is-primary">
   <div class="container text-centered opacity-50">
     <h5>Believer in</h5>
     <h2>Craftsman Manifesto</h2>
@@ -135,5 +135,10 @@
   h2 {
     font-weight: 900;
     padding-bottom: 20px;
+  }
+  .iconify {
+    width: 38px;
+    height: 38px;
+    color: black;
   }
 </style>

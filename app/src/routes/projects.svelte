@@ -124,7 +124,7 @@
 </svelte:head>
 
 <HeroShape color="is-secondary text-centered">
-  <h2 class="opacity-50">Prime Projects</h2>
+  <h2 class="opacity-50">My prime projects</h2>
 </HeroShape>
 
 <div class="container">
@@ -145,7 +145,7 @@
   }
   .projects {
     display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(364px, 1fr));
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 </style>
