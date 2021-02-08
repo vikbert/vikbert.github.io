@@ -25,6 +25,18 @@
         iconHtml =
           '<span class="iconify" data-icon="simple-icons:php" data-inline="false"></span>';
         break;
+      case 'node':
+        iconHtml =
+          '<span class="iconify" data-icon="bx:bxl-nodejs" data-inline="false"></span>';
+        break;
+      case 'weui':
+        iconHtml =
+          '<span class="iconify" data-icon="mdi:wechat" data-inline="false"></span>';
+        break;
+      case 'doc':
+        iconHtml =
+          '<span class="iconify" data-icon="teenyicons:doc-outline" data-inline="false"></span>';
+        break;
       case 'symfony':
         iconHtml =
           '<span class="iconify" data-icon="mdi:symfony" data-inline="false"></span>';
@@ -45,6 +57,10 @@
         iconHtml =
           '<span class="iconify" data-icon="cib:sass-alt" data-inline="false"></span>';
         break;
+      case 'html':
+        iconHtml =
+          '<span class="iconify" data-icon="ant-design:html5-outlined" data-inline="false"></span>';
+        break;
       case 'material-ui':
         iconHtml =
           '<span class="iconify" data-icon="mdi:material-ui" data-inline="false"></span>';
@@ -53,9 +69,25 @@
         iconHtml =
           '<span class="iconify" data-icon="file-icons:webpack-old" data-inline="false"></span>';
         break;
+      case 'chrome':
+        iconHtml =
+          '<span class="iconify" data-icon="ant-design:chrome-outlined" data-inline="false"></span>';
+        break;
+      case 'markdown':
+        iconHtml =
+          '<span class="iconify" data-icon="la:markdown" data-inline="false"></span>';
+        break;
+      case 'ios':
+        iconHtml =
+          '<span class="iconify" data-icon="logos:ios" data-inline="false"></span>';
+        break;
       case 'webpack':
         iconHtml =
           '<span class="iconify" data-icon="mdi:material-ui" data-inline="false"></span>';
+        break;
+      case 'pixss':
+        iconHtml =
+          '<img class="icon pixss" src="pixss.png" width="23" />';
         break;
       case 'rollup':
         iconHtml =
@@ -70,3 +102,4 @@
 </script>
 
 {@html iconHtml}
+
