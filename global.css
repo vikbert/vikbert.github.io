@@ -25,16 +25,9 @@ h1 {
 .footer {
   margin-top: 0;
 }
-/*
- * ------------------------ .iconify
-*/
-.iconify {
-  color: black;
-  width: 40px;
-  height: 40px;
-}
 
-.yellow {
-  display: inline;
-  background-color: #ffff6d7e;
+.iconify {
+  width: 25px;
+  height: 25px;
+  margin: 0 3px;
 }
