@@ -12,7 +12,7 @@
     },
     {
       title: 'SSOmoc',
-      info: 'Single-Sign-On Proof of concept in symfony 5 standard project',
+      info: 'A Oauth2 based Single-Sign-On Proof of concept in symfony 5 standard project',
       demo: 'https://github.com/vikbert/ssomoc',
       repository: 'vikbert/ssomoc',
       tags: ['symfony', 'php', 'pixss'],
@@ -21,7 +21,7 @@
       title: 'FirePoll',
       info:
         'A realtime Voting App based on firebase, redux and React: responsive design powered by React Material UI',
-      demo: 'https://github.com/vikbert/firepoll',
+      demo: 'https://firepoll.netlify.app/',
       repository: 'vikbert/firepoll',
       tags: ['react', 'material-ui', 'firebase'],
     },
@@ -32,18 +32,14 @@
       demo: 'https://github.com/vikbert/nutab',
       repository: 'vikbert/nutab',
       tags: ['react', 'chrome'],
-      icon:
-        '<span class="iconify" data-icon="ant-design:chrome-outlined" data-inline="false"></span>',
     },
     {
       title: 'Appikon',
       info:
         'A simple mobile app icon generator to save up the time to create the app icon for both native app or web app',
-      demo: 'https://github.com/vikbert/appikon',
+      demo: 'https://appikon.netlify.app/',
       repository: 'vikbert/appikon',
       tags: ['react', 'ios'],
-      icon:
-        '<span class="iconify" data-icon="ri:reactjs-fill" data-inline="false"></span>',
     },
     {
       title: 'YiTab',
@@ -52,18 +48,14 @@
       demo: 'https://github.com/vikbert/yitab',
       repository: 'vikbert/yitab',
       tags: ['react', 'typescript'],
-      icon:
-        '<span class="iconify" data-icon="ant-design:chrome-outlined" data-inline="false"></span>',
     },
     {
       title: 'My MacOS Dev setup scripts',
       info:
         'A couple of shell scripts for setting up the web dev environment in MacOS',
       demo: 'https://github.com/vikbert/awesome-macbook-setup',
-      repository: 'vikbert/awesome-macbook-setup',
+      repository: 'vikbert/macbook-setup',
       tags: ['macos', 'cli'],
-      icon:
-        '<span class="iconify" data-icon="carbon:mac-command" data-inline="false"></span>',
     },
     {
       title: 'NineS',
@@ -71,28 +63,22 @@
       demo: 'https://vikbert.github.io/nines/',
       repository: 'vikbert/nines',
       tags: ['vue', 'doc', 'markdown', 'pixss'],
-      icon:
-        '<span class="iconify" data-icon="logos:markdown" data-inline="false"></span>',
     },
     {
       title: 'maskr',
       info:
         'A realtime mask radar built with Vue.js for Google Map. The test data is found in internet, and is not real.',
-      demo: 'https://github.com/vikbert/maskr/',
+      demo: 'https://maskr.xzhou.vercel.app/',
       repository: 'vikbert/maskr',
       tags: ['vue', 'sass',],
-      icon:
-        '<span class="iconify" data-icon="ri:vuejs-line" data-inline="false"></span>',
     },
     {
       title: 'BookStore',
       info:
-        'BookStore: a experimental app built with Svelte 3 and mocked REST API as I started learning svelte.js',
-      demo: 'https://github.com/vikbert/svelete-bookstore',
+        'BookStore: a svelte.js app built with Svelte 3 and mocked REST API as I started learning svelte.js',
+      demo: 'https://svelete-bookstore.vercel.app',
       repository: 'vikbert/svelete-bookstore',
       tags: ['svelte', 'pixss'],
-      icon:
-        '<span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false"></span>',
     },
     {
       title: 'speedor',
@@ -101,27 +87,35 @@
       demo: 'https://github.com/vikbert/speedor',
       repository: 'vikbert/speedor',
       tags: ['cli', 'react', 'node'],
-      icon:
-        '<span class="iconify" data-icon="mdi:speedometer-medium" data-inline="false"></span>',
     },
     {
       title: 'sf-components',
       info:
         'A smart full list of Symfony components for simple search and category.',
-      demo: 'https://github.com/vikbert/sf-components',
+      demo: 'https://sf-components.vercel.app/',
       repository: 'vikbert/sf-components',
       tags: ['symfony', 'typescript',  'svelte',  'pixss', 'doc'],
-      icon:
-        '<span class="iconify" data-icon="teenyicons:svelte-outline" data-inline="false"></span>',
     },
     {
       title: 'Masanfit',
       info: 'A minimal fitness timer made for interval training.',
-      demo: 'https://github.com/vikbert/masanfit',
+      demo: 'https://masanfit.netlify.app/',
       repository: 'vikbert/masanfit',
       tags: ['react', 'weui', 'sass'],
-      icon:
-        '<span class="iconify" data-icon="ion:fitness-outline" data-inline="false"></span>',
+    },
+    {
+      title: 'LifeCalender-ts-svelte',
+      info: 'A life calender inspired by Tim Uraban TED talk: Svelte-Typescript version',
+      demo: 'https://lifecalender.vercel.app/',
+      repository: 'vikbert/lifecalender-ts',
+      tags: ['svelte', 'typescript', 'pixss'],
+    },
+    {
+      title: 'LifeCalender React',
+      info: 'A life calender inspired by Tim Uraban TED talk. React.js version',
+      demo: 'https://lifecalendar.netlify.app/',
+      repository: 'vikbert/lifecalendar',
+      tags: ['react', 'material-ui'],
     },
   ];
 </script>
