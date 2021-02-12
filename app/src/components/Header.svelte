@@ -1,6 +1,8 @@
 <script>
-  import Nav from './Nav.svelte';
-  export let segment;
+    import Nav from './Nav.svelte';
+
+    export let segment;
+    const avatarUri = './vikbert.svg';
 </script>
 
 <style>
@@ -13,10 +15,12 @@
 </style>
 
 <header>
-  <nav class="topbar">
-    <div class="container space-between">
-      <a href="/"> <img alt="Sapper" src="vikbert.svg" width="30" /> </a>
-      <Nav {segment} />
-    </div>
-  </nav>
+    <nav class="topbar">
+        <div class="container space-between">
+            <a href="/">
+                <img alt="Sapper" src={avatarUri} width="30"/>
+            </a>
+            <Nav {segment}/>
+        </div>
+    </nav>
 </header>

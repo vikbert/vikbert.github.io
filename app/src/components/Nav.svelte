@@ -1,6 +1,5 @@
 <script>
-  import classNames from 'classnames';
-  export let segment;
+    export let segment;
 </script>
 
 <style>
@@ -42,16 +41,16 @@
 </style>
 
 <ul>
-  <li><a class={segment === undefined ? 'selected' : ''} href=".">About</a></li>
-  <li>
-    <a
-      class={segment === 'projects' ? 'selected' : ''}
-      href="projects">Projects</a>
-  </li>
-  <li>
-    <a
-      rel="prefetch"
-      class:selected={segment === 'blog' }
-      href="blog">Blog</a>
-  </li>
+    <li><a class={segment === undefined ? 'selected' : ''} href=".">About</a></li>
+    <li>
+        <a
+            class={segment === 'projects' ? 'selected' : ''}
+            href="projects">Projects</a>
+    </li>
+    <!-- <li>
+      <a
+        rel="prefetch"
+        class:selected={segment === 'blog' }
+        href="blog">Blog</a>
+    </li> -->
 </ul>
