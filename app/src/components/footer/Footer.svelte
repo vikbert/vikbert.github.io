@@ -20,12 +20,12 @@
       </a>
     </div>
     <div class="tech-info">
-      <a href="https://vikbert.github.io/pixss/"
-        ><img src="pixss.png" alt="pixss" class="pixss" /></a
-      >
-      <a href="https://svelte.dev/"
-        ><img src="svelte.png" alt="made-with-svelte" width="180" /></a
-      >
+      <a href="https://vikbert.github.io/pixss/">
+        <img src="pixss.png" alt="pixss" width="34" class="pixss"/>
+      </a>
+      <a href="https://svelte.dev/">
+        <img src="svelte.png" alt="made-with-svelte" width="120"/>
+      </a>
     </div>
   </div>
 </FooterShape>
@@ -35,7 +35,7 @@
     margin-bottom: 0.5rem;
   }
   img.pixss {
-    width: 54px;
+    width: 36px;
     filter: invert(1);
   }
 </style>
