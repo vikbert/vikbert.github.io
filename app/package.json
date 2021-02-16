@@ -30,6 +30,7 @@
     "@babel/runtime": "^7.0.0",
     "@iconify-icons/fa-brands": "^1.1.0",
     "@iconify/svelte": "^1.0.3",
+    "@pixss/svelte": "^1.0.0",
     "@rollup/plugin-babel": "^5.2.1",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",

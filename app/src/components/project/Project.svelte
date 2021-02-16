@@ -1,16 +1,12 @@
 <script>
-import Icon from "../Icon.svelte";
+  import Icon from '../Icon.svelte';
 
   export let title;
   export let info;
   export let demo;
   export let repository;
   export let icon;
-  export let tags = [
-    'react',
-    'svelte',
-    'vue',
-  ];
+  export let tags = ['react', 'svelte', 'vue'];
 </script>
 
 <div class="card shadow-lg">
@@ -23,20 +19,20 @@ import Icon from "../Icon.svelte";
     <div class="tags py-1">
       <span>Tags:</span>
       {#each tags as tag}
-         <Icon name={tag}/>
+        <Icon name={tag} />
       {/each}
     </div>
     <p class="info">{info}</p>
   </div>
   <div class="action px-2">
-      <span
-        class="iconify"
-        data-icon="ant-design:github-filled"
-        data-inline="false"
-      />
-      <a href={'http://github.com/' + repository} target="_blank">
-        <span>{repository}</span>
-      </a>
+    <span
+      class="iconify"
+      data-icon="ant-design:github-filled"
+      data-inline="false"
+    />
+    <a href={'http://github.com/' + repository} target="_blank">
+      <span>{repository}</span>
+    </a>
     <span class="licence opacity-75">MIT</span>
   </div>
 </div>
@@ -93,15 +89,4 @@ import Icon from "../Icon.svelte";
   h4:hover {
     opacity: 50%;
   }
-  /* a {
-    color: black;
-    flex: 1 1 300px;
-    flex: 1 1 500px;
-    margin-bottom: 1.6rem;
-    border: 1px solid #ffffff;
-  }
-  a:hover {
-    border: 1px solid #dedede;
-    border-radius: 8px;
-  } */
 </style>

@@ -1,7 +1,7 @@
 <script>
-    import Footer from '../components/footer/Footer.svelte';
     import HeroShape from '../components/HeroShape.svelte';
     import About from '../components/about/About.svelte';
+    import {Footer} from '@pixss/svelte';
 </script>
 
 <svelte:head>
@@ -16,5 +16,4 @@
 </HeroShape>
 
 <About/>
-
 <Footer/>

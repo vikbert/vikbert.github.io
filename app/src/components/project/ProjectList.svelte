@@ -49,7 +49,7 @@
       tags: ['react', 'typescript'],
     },
     {
-      title: 'My MacOS Dev setup scripts',
+      title: 'MacOS setup scripts',
       info:
         'A couple of shell scripts for setting up the web dev environment in MacOS',
       demo: 'https://github.com/vikbert/awesome-macbook-setup',
@@ -121,9 +121,9 @@
 
 <div class="container">
   <div class="centered-xy my-2" />
-  <div class="projects">
+  <div class="items">
     {#each projects as projectData}
-      <div class="project">
+      <div class="item">
         <Project {...projectData} />
       </div>
     {/each}
@@ -135,9 +135,14 @@
     max-width: 112rem !important;
     height: 85vh;
   }
-  .projects {
+  .items {
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  @media (max-width: 480px) {
+    .items {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
   }
 </style>
