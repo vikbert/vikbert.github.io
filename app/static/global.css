@@ -7,12 +7,10 @@ body {
 }
 .main {
   background-color: #ffffff;
-  margin-top: 0;
-  min-height: 85vh;
 }
 .topbar {
   box-shadow: none;
-  background-color: #f7fafc;
+  background-color: #ffffff;
 }
 pre {
   border-radius: 10px;

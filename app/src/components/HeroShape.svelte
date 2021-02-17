@@ -2,7 +2,7 @@
   export let color = 'is-primary';
 </script>
 
-<div class={'hero ' + color}>
+<div class={'hide-mobile hero ' + color}>
   <div class="container">
     <slot />
   </div>

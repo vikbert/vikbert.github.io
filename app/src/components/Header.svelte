@@ -18,12 +18,12 @@
 
 <style>
   img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 3rem;
     display: block;
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     img {
       width: 2.6rem;
     }

@@ -133,7 +133,6 @@
 <style>
   .container {
     max-width: 112rem !important;
-    height: 85vh;
   }
   .items {
     display: grid;

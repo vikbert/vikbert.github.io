@@ -1,4 +1,3 @@
-<script></script>
 <div class="container text-centered">
     <img class="avatar" src="me.jpg" alt="about me"/>
     <h1>About Me</h1>
