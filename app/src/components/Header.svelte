@@ -25,7 +25,7 @@
   }
   @media screen and (max-width: 320px) {
     img {
-      width: rem;
+      width: 2.6rem;
     }
   }
 </style>

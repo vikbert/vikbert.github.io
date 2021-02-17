@@ -22,9 +22,9 @@
     position: absolute;
     transition: transform 0.3s ease;
     left: 0;
-    bottom: 0;
+    bottom: 6px;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: rgb(129, 127, 127);
     transform: scaleX(0);
   }
