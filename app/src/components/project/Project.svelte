@@ -51,6 +51,7 @@
 <style>
   .content {
     padding: 1rem 2rem;
+
   }
   .info {
     height: 75px;
