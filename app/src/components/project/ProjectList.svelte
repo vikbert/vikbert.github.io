@@ -11,7 +11,7 @@
     },
     {
       title: 'SSOmoc',
-      info: 'A Oauth2 based Single-Sign-On Proof of concept in symfony 5 standard project',
+      info: 'An Oauth2 based Single-Sign-On Proof Of Concept in symfony 5 standard project',
       demo: 'https://github.com/vikbert/ssomoc',
       repository: 'vikbert/ssomoc',
       tags: ['symfony', 'php', 'pixss'],
