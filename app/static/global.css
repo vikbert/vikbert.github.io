@@ -1,7 +1,12 @@
 /* over write the pixss.min.css */
+body {
+  width: 100%;
+}
+.card .content {
+  overflow: hidden;
+}
 .main {
   background-color: #ffffff;
-  padding-top: 6rem;
   margin-top: 0;
   min-height: 85vh;
 }
@@ -15,7 +20,7 @@ pre {
 pre code {
   border: none !important;
 }
-code[class*=language-] {
+code[class*="language-"] {
   font-size: 14px;
 }
 h1 {
