@@ -114,15 +114,6 @@
     margin: 0 1rem;
   }
 
-  h5 {
-    margin-bottom: 0;
-  }
-
-  h2 {
-    font-weight: 900;
-    padding-bottom: 20px;
-  }
-
   .iconify {
     width: 38px;
     height: 38px;
