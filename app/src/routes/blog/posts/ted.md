@@ -11,4 +11,5 @@ An awesome collection of TED talks I watched
 > Simon Sinek has a simple but powerful model for inspirational leadership -- starting with a golden circle and the question: "Why?" His examples include Apple, Martin Luther King Jr. and the Wright brothers
 
 
-
+[The schools kill creativity?](https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity)
+> Ken Robinson makes an entertaining and profoundly moving case for creating an education system that nurtures (rather than undermines) creativity.
