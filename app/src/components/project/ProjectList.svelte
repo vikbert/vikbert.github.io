@@ -139,14 +139,14 @@
     },
     {
       title: 'React Todo',
-      info: 'A react coding kata to create the todomvc App. This coding kata is based on the todomvc project. see https://todomvc.com/',
+      info: 'A react coding kata to create the todomvc App. This coding kata is based on the todomvc project.',
       demo: 'https://mit-todo-react.netlify.app/',
       repository: 'vikbert/react-MIT-todo',
       tags: ['react'],
     },
     {
       title: 'React Todo with redux',
-      info: 'A react coding kata to create the todomvc App with "Redux". This coding kata is based on the todomvc project. see https://todomvc.com/',
+      info: 'Rewrite the todomvc App with "Redux" framework. This coding kata is based on the todomvc project.',
       demo: 'https://mit-todo-react.netlify.app/',
       repository: 'vikbert/redux-mit-todo',
       tags: ['react', 'redux'],
