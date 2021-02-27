@@ -116,6 +116,41 @@
       repository: 'vikbert/lifecalendar',
       tags: ['react', 'material-ui'],
     },
+    {
+      title: 'Aino React Slide',
+      info: 'A react slide animation. It was inspired by the iOS native "notes" app and I tried to simulate with a react demo.',
+      demo: 'https://aino.netlify.app/',
+      repository: 'vikbert/aino',
+      tags: ['react'],
+    },
+    {
+      title: 'React Menu Animation',
+      info: 'A react mobile menu experiment with elegant animation. Inspired by CSS tutorial on https://www.freecodecamp.org/',
+      demo: 'https://haku.netlify.app/',
+      repository: 'vikbert',
+      tags: ['react', 'sass'],
+    },
+    {
+      title: 'iOS note App react Clone',
+      info: 'A react clone for iOS note app by using weui and react.js. It can be used for memory training.',
+      demo: 'https://retinder.netlify.app/',
+      repository: 'vikbert/retinder',
+      tags: ['react', 'sass'],
+    },
+    {
+      title: 'React Todo',
+      info: 'A react coding kata to create the todomvc App. This coding kata is based on the todomvc project. see https://todomvc.com/',
+      demo: 'https://mit-todo-react.netlify.app/',
+      repository: 'vikbert/react-MIT-todo',
+      tags: ['react'],
+    },
+    {
+      title: 'React Todo with redux',
+      info: 'A react coding kata to create the todomvc App with "Redux". This coding kata is based on the todomvc project. see https://todomvc.com/',
+      demo: 'https://mit-todo-react.netlify.app/',
+      repository: 'vikbert/redux-mit-todo',
+      tags: ['react', 'redux'],
+    },
   ];
 </script>
 

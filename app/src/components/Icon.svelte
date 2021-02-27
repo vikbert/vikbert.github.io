@@ -9,6 +9,10 @@
         iconHtml =
           '<span class="iconify" data-icon="ri:reactjs-line" data-inline="false"></span>';
         break;
+      case 'redux':
+        iconHtml =
+          '<span class="iconify" data-icon="cib:redux" data-inline="false"></span>';
+        break;
       case 'svelte':
         iconHtml =
           '<span class="iconify svelte" data-icon="teenyicons:svelte-outline" data-inline="false"></span>';
