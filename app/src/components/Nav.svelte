@@ -1,6 +1,21 @@
 <script>
-    export let segment;
+  export let segment;
 </script>
+
+<ul>
+  <li><a class={segment === undefined ? 'selected' : ''} href=".">About</a></li>
+  <li>
+    <a class={segment === 'projects' ? 'selected' : ''} href="projects"
+      >Projects</a
+    >
+  </li>
+  <!-- <li>
+      <a
+        rel="prefetch"
+        class:selected={segment === 'blog' }
+        href="blog">Blog</a>
+    </li> -->
+</ul>
 
 <style>
   a {
@@ -39,18 +54,3 @@
     background: black;
   }
 </style>
-
-<ul>
-    <li><a class={segment === undefined ? 'selected' : ''} href=".">About</a></li>
-    <li>
-        <a
-            class={segment === 'projects' ? 'selected' : ''}
-            href="projects">Projects</a>
-    </li>
-    <!-- <li>
-      <a
-        rel="prefetch"
-        class:selected={segment === 'blog' }
-        href="blog">Blog</a>
-    </li> -->
-</ul>
