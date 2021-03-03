@@ -1,5 +1,5 @@
 ---
-title: TED
+title: Awesome TED Talks
 date: "2020-06-11"
 ---
 
