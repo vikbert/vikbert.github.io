@@ -17,6 +17,9 @@ An awesome collection of TED talks I watched
 [What makes a good life?](https://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness)
 > What keeps us happy and healthy as we go through life? If you think it's fame and money, you're not alone – but, according to psychiatrist Robert Waldinger, you're mistaken.
 
+[10 wys to have a better conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation)
+> she shares 10 useful rules for having better conversations. "Go out, talk to people, listen to people," she says. "And, most importantly, be prepared to be amazed."
+
 
 ## resources
 
