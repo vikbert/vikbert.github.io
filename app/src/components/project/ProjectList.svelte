@@ -151,6 +151,13 @@
       repository: 'vikbert/redux-mit-todo',
       tags: ['react', 'redux'],
     },
+    {
+      title: 'Toll: Awesome',
+      info: 'An awesome collection of the Github "awesome list" project. Pages are parsered by svelte markdown in client side.',
+      demo: 'https://github.com/vikbert/toll',
+      repository: 'vikbert/toll',
+      tags: ['svelte', 'markdown', 'github'],
+    },
   ];
 </script>
 
