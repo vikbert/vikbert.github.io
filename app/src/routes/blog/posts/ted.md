@@ -20,6 +20,11 @@ An awesome collection of TED talks I watched
 [10 wys to have a better conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation)
 > she shares 10 useful rules for having better conversations. "Go out, talk to people, listen to people," she says. "And, most importantly, be prepared to be amazed."
 
+[Inside the mind of a master procrastinator](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator?referrer=playlist-the_most_popular_talks_of_all&language=en)
+> Tim Urban knows that procrastination doesn't make sense, but he's never been able to shake his habit of waiting until the last minute to get things done. In this hilarious and insightful talk, Urban takes us on a journey through YouTube binges, Wikipedia rabbit holes and bouts of staring out the window -- and encourages us to think harder about what we're really procrastinating on, before we run out of time.
+
+[Julian Treasure: how to speak so that people want to listen](https://www.youtube.com/watch?v=eIho2S0ZahI&list=PUAuUUnT6oDeKwE6v1NGQxug&index=5)
+> Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help. In this useful talk, the sound expert demonstrates the how-to's of powerful speaking
 
 ## resources
 
