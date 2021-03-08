@@ -5,7 +5,6 @@
   export let info;
   export let demo;
   export let repository;
-  export let icon;
   export let tags = ['react', 'svelte', 'vue'];
 </script>
 
