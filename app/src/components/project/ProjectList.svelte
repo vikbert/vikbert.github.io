@@ -154,9 +154,9 @@
     {
       title: 'Toll: Awesome',
       info: 'An awesome collection of the Github "awesome list" project. Pages are parsered by svelte markdown in client side.',
-      demo: 'https://github.com/vikbert/toll',
+      demo: 'https://toll.vercel.app',
       repository: 'vikbert/toll',
-      tags: ['svelte', 'markdown', 'github'],
+      tags: ['svelte', 'markdown', 'github', 'typescript'],
     },
   ];
 </script>
