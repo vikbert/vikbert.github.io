@@ -26,6 +26,10 @@ An awesome collection of TED talks I watched
 [Julian Treasure: how to speak so that people want to listen](https://www.youtube.com/watch?v=eIho2S0ZahI&list=PUAuUUnT6oDeKwE6v1NGQxug&index=5)
 > Have you ever felt like you're talking, but nobody is listening? Here's Julian Treasure to help. In this useful talk, the sound expert demonstrates the how-to's of powerful speaking
 
+
+[Why I keep speaking up, even when people mock my accent](https://www.ted.com/talks/safwat_saleem_why_i_keep_speaking_up_even_when_people_mock_my_accent?referrer=playlist-talks_for_when_you_want_to_lau#t-634997)
+> Artist Safwat Saleem grew up with a stutter -- but as an independent animator, he decided to do his own voiceovers to give life to his characters. When YouTube commenters started mocking his Pakistani accent, it crushed him, and his voice began to leave his work. Hear how this TED Fellow reclaimed his voice and confidence in this charming, thoughtful talk.
+
 ## resources
 
 [Top 10 great TED talks on youtube](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?referrer=playlist-the_10_most_popular_tedx_talks)
