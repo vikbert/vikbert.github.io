@@ -8,7 +8,7 @@
 </svelte:head>
 
 <HeroShape color="is-secondary text-centered">
-    <h2 class="opacity-50">My prime projects</h2>
+    <h2 class="opacity-50">Some of my side projects</h2>
 </HeroShape>
 
 <ProjectList/>>
