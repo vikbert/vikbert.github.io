@@ -25,6 +25,14 @@
       tags: ['react', 'material-ui', 'firebase'],
     },
     {
+      title: 'Wal',
+      info:
+        'A minimal meeting assistent tool for scrum daily standup meeting',
+      demo: 'https://wal.vercel.app/',
+      repository: 'vikbert/wal',
+      tags: ['svelte', 'sass'],
+    },
+    {
       title: 'NuTab',
       info:
         'Another Chrome extension to increase the productivity with the following features: manage Todos, quick search your bookmarks, add add a text note from everywhere.',
