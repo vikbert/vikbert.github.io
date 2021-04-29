@@ -89,7 +89,7 @@
       <img src="https://raw.githubusercontent.com/vikbert/vikbert.github.io/master/miyaszki.jpg" alt="miyazaki">
     </div>
     <div class="content">
-      An old friend of mine and an Ode to childhood:
+      An old friend of "mine" and an Ode to childhood said,
        <p>"In fact, most of the troubles happen when we stop trying to be kids and behave more like grown-ups."</p>
       <h6><a href="https://www.youtube.com/watch?v=1zi7jIZkS68&t=1240s" target="_blank">Hayao miyaszki</a></h6>
     </div>
