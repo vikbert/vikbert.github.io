@@ -89,4 +89,9 @@
   h4:hover {
     opacity: 50%;
   }
+  .card {
+    box-shadow: 1px 2px 15px 2px rgba(136,126,126,0.36);
+-webkit-box-shadow: 1px 2px 15px 2px rgba(136,126,126,0.36);
+-moz-box-shadow: 1px 2px 15px 2px rgba(136,126,126,0.36);
+  }
 </style>
