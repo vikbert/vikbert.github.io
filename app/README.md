@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo and title and sub-title -->
-  <img src="docs/logo.png" alt="vikbert.github.io" width="400"/>
+  <img src="https://vikbert.github.io/vikbert.svg" alt="logo" width="100"/>
   <h1 style="font-weight: bolder; color: black; margin-top: 0px">
     vikbert.github.io
   </h1>
