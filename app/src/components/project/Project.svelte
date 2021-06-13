@@ -5,11 +5,18 @@
   export let info;
   export let demo;
   export let repository;
+  export let screenshot = "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3298&q=80";
   export let tags = ['react', 'svelte', 'vue'];
 </script>
 
 <div class="card shadow-lg">
+
   <div class="content">
+    <a href={demo} target="_blank">
+      <div class="figure" >
+        <img src={screenshot} alt="">
+      </div>
+    </a>
     <div class="headline">
       <a href={demo} target="_blank">
         <h4>{title}</h4>
@@ -36,18 +43,17 @@
   </div>
 </div>
 
-<!-- <a href={url} target="_blank" rel="noreferrer">
-  <div class="showcase">
-    <div class="showcase-icon">
-      {@html icon}
-    </div>
-    <div class="showcase-content">
-      <h4>{title}</h4>
-      <span>{info}</span>
-    </div>
-  </div>
-</a> -->
 <style>
+  .figure {
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid #817f7f;
+    margin-bottom: 10px;
+    opacity: 15%;
+  }
+  .figure:hover {
+    opacity: 100%;
+  }
   .content {
     padding: 1rem 2rem;
 

@@ -1,5 +1,6 @@
 <script>
   import Project from './Project.svelte';
+  import HeroShape from '../HeroShape.svelte';
   const projects = [
     {
       title: 'PiXSS',
@@ -8,6 +9,7 @@
       demo: 'https://vikbert.github.io/pixss/',
       repository: 'vikbert/pixss',
       tags: ['sass', 'html', 'svelte', 'vue', 'pixss'],
+      screenshot: '/screenshot/pixss.png',
     },
     {
       title: 'SSOmoc',
@@ -15,6 +17,7 @@
       demo: 'https://github.com/vikbert/ssomoc',
       repository: 'vikbert/ssomoc',
       tags: ['symfony', 'php', 'pixss'],
+      screenshot: '/screenshot/ssomoc.png',
     },
     {
       title: 'FirePoll',
@@ -23,6 +26,7 @@
       demo: 'https://firepoll.netlify.app/',
       repository: 'vikbert/firepoll',
       tags: ['react', 'material-ui', 'firebase'],
+      screenshot: '/screenshot/firepoll.png',
     },
     {
       title: 'Wal',
@@ -31,6 +35,7 @@
       demo: 'https://wal.vercel.app/',
       repository: 'vikbert/wal',
       tags: ['svelte', 'sass'],
+      screenshot: '/screenshot/wal.png',
     },
     {
       title: 'NuTab',
@@ -39,6 +44,7 @@
       demo: 'https://github.com/vikbert/nutab',
       repository: 'vikbert/nutab',
       tags: ['react', 'chrome'],
+      screenshot: '/screenshot/nutab.png',
     },
     {
       title: 'Appikon',
@@ -47,6 +53,7 @@
       demo: 'https://appikon.netlify.app/',
       repository: 'vikbert/appikon',
       tags: ['react', 'ios'],
+      screenshot: '/screenshot/appikon.png',
     },
     {
       title: 'YiTab',
@@ -55,6 +62,7 @@
       demo: 'https://github.com/vikbert/yitab',
       repository: 'vikbert/yitab',
       tags: ['react', 'typescript'],
+      screenshot: '/screenshot/yitab.png',
     },
     {
       title: 'MacOS setup scripts',
@@ -70,6 +78,7 @@
       demo: 'https://vikbert.github.io/nines/',
       repository: 'vikbert/nines',
       tags: ['vue', 'doc', 'markdown', 'pixss'],
+      screenshot: '/screenshot/nines.png',
     },
     {
       title: 'maskr',
@@ -78,6 +87,7 @@
       demo: 'https://maskr.xzhou.vercel.app/',
       repository: 'vikbert/maskr',
       tags: ['vue', 'sass',],
+      screenshot: '/screenshot/maskr.png',
     },
     {
       title: 'BookStore',
@@ -86,6 +96,7 @@
       demo: 'https://svelete-bookstore.vercel.app',
       repository: 'vikbert/svelete-bookstore',
       tags: ['svelte', 'pixss'],
+      screenshot: '/screenshot/bookstore.png',
     },
     {
       title: 'speedor',
@@ -94,6 +105,7 @@
       demo: 'https://github.com/vikbert/speedor',
       repository: 'vikbert/speedor',
       tags: ['cli', 'react', 'node'],
+      screenshot: '/screenshot/speedor.png',
     },
     {
       title: 'sf-components',
@@ -102,6 +114,7 @@
       demo: 'https://sf-components.vercel.app/',
       repository: 'vikbert/sf-components',
       tags: ['symfony', 'typescript',  'svelte',  'pixss', 'doc'],
+      screenshot: '/screenshot/sf-components.png',
     },
     {
       title: 'Masanfit',
@@ -109,6 +122,7 @@
       demo: 'https://masanfit.netlify.app/',
       repository: 'vikbert/masanfit',
       tags: ['react', 'weui', 'sass'],
+      screenshot: '/screenshot/masanfit.png',
     },
     {
       title: 'LifeCalender-ts-svelte',
@@ -116,6 +130,7 @@
       demo: 'https://lifecalender.vercel.app/',
       repository: 'vikbert/lifecalender-ts',
       tags: ['svelte', 'typescript', 'pixss'],
+      screenshot: '/screenshot/lifecalender-svelte.png',
     },
     {
       title: 'LifeCalender React',
@@ -123,6 +138,7 @@
       demo: 'https://lifecalendar.netlify.app/',
       repository: 'vikbert/lifecalendar',
       tags: ['react', 'material-ui'],
+      screenshot: '/screenshot/lifecalendar-react.png',
     },
     {
       title: 'Aino React Slide',
@@ -130,6 +146,7 @@
       demo: 'https://aino.netlify.app/',
       repository: 'vikbert/aino',
       tags: ['react'],
+      screenshot: '/screenshot/aino.png',
     },
     {
       title: 'React Menu Animation',
@@ -137,6 +154,7 @@
       demo: 'https://haku.netlify.app/',
       repository: 'vikbert',
       tags: ['react', 'sass'],
+      screenshot: '/screenshot/menu.png',
     },
     {
       title: 'iOS note App react Clone',
@@ -144,6 +162,7 @@
       demo: 'https://retinder.netlify.app/',
       repository: 'vikbert/retinder',
       tags: ['react', 'sass'],
+      screenshot: '/screenshot/retinder.png',
     },
     {
       title: 'React Todo',
@@ -151,6 +170,7 @@
       demo: 'https://mit-todo-react.netlify.app/',
       repository: 'vikbert/react-MIT-todo',
       tags: ['react'],
+      screenshot: '/screenshot/todo.png',
     },
     {
       title: 'React Todo with redux',
@@ -158,6 +178,7 @@
       demo: 'https://mit-todo-react.netlify.app/',
       repository: 'vikbert/redux-mit-todo',
       tags: ['react', 'redux'],
+      screenshot: '/screenshot/todo.png',
     },
     {
       title: 'Toll: Awesome',
@@ -165,6 +186,7 @@
       demo: 'https://toll.vercel.app',
       repository: 'vikbert/toll',
       tags: ['svelte', 'markdown', 'github', 'typescript'],
+      screenshot: '/screenshot/toll.png',
     },
     {
       title: 'Musk Timer',
@@ -172,6 +194,7 @@
       demo: 'https://musktimer.vercel.app',
       repository: 'vikbert/musktimer',
       tags: ['react'],
+      screenshot: '/screenshot/musktimer.png',
     },
     {
       title: 'Koding: Clean Coding',
@@ -179,9 +202,15 @@
       demo: 'https://koding.vercel.app',
       repository: 'vikbert/koding',
       tags: ['react', 'typescript', 'firebase'],
+      screenshot: '/screenshot/koding.png',
     },
   ];
 </script>
+
+<HeroShape color="is-secondary text-centered">
+  <h2 class="opacity-50">Some of my side projects</h2>
+  <h5 class="opacity-75">Most of my <span class="orange">PHP</span> side projects are related to working stuffs, and are <span class="orange">not shared</span> here. </h5>
+</HeroShape>
 
 <div class="container">
   <div class="centered-xy my-2" />
@@ -195,6 +224,10 @@
 </div>
 
 <style>
+  span.orange {
+    color: rgb(238, 144, 22);
+    font-size: 30px;
+  }
   .container {
     max-width: 112rem !important;
   }
