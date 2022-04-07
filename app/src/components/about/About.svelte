@@ -74,7 +74,7 @@
     </p>
     <p>
       Not only individuals and interactions, but also <strong
-        >a community of prefessionals</strong
+        >a community of professionals</strong
       >
     </p>
     <p>
