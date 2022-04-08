@@ -43,6 +43,3 @@ This is where your markdown posts live in. All `.md` files in this directory are
 - Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
 
-## licence
-
-MIT [@vikbert](https://vikbert.github.io/)
