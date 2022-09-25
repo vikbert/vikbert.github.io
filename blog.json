@@ -1,1 +1,0 @@
-[{"title":"Semicolons in JavaScript","slug":"semicolon-always","excerpt":"\nUse semicolons always in JavaScript code, and the consistency is more important than saving a few bytes. In some ambiguous cases, the code will throw the error at runtime. Why?\n\n","printDate":"June 11, 2020"}]

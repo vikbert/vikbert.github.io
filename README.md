@@ -1,45 +1,38 @@
-<div align="center">
-  <!-- Logo and title and sub-title -->
-  <img src="https://vikbert.github.io/vikbert.svg" alt="logo" width="100"/>
-  <h1 style="font-weight: bolder; color: black; margin-top: 0px">
-    vikbert.github.io
-  </h1>
-  <h3 style="color: darkgrey; margin: 40px 0"> 
-    <a href="https://vikbert.github.io/">➲ Live page</a>
-  </h3>
+# create-svelte
 
-  <!-- description of project -->
-  <p>
-    This is the personal blog, including the overview of the projects and blogs, that is hosted on <strong>github pages</strong> and built with <string>svelte</string>, <strong>sapper</strong> and <strong>markdown</strong>.
-  </p>
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-  <!-- github icons for PR and License -->
-  <p>
-    <a href="#">
-      <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
-    </a>
-  </p>
-</div>
+## Creating a project
 
----
+If you're seeing this, you've probably already done this step. Congrats!
 
-## ⛑ Structure
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-The base structure of this template is the same as Sapper's [default template](https://github.com/sveltejs/sapper-template/). These are some of the new things you'll find here:
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-### src/routes/blog
+## Developing
 
-This is the home of your blog. The most important files in here are:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- `_posts.js`: this module contains the logic for loading and parsing your markdown posts.
-- `[slug].svelte`: this is the template of your blog post page.
-- `index.svelte`: this is the template of your article list page.
+```bash
+npm run dev
 
-### src/routes/blog/posts
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-This is where your markdown posts live in. All `.md` files in this directory are treated as blog posts and parsed automatically by the `_posts.js` module.
+## Building
 
-- The markdown file name becomes the post slug. For example `hello-world.md` becomes `http://localhost:3000/blog/hello-world`.
-- Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
-- Frontmatter properties supported are `title` and `date`.
+To create a production version of your app:
 
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
