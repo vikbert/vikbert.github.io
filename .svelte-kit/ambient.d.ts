@@ -27,6 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const LDFLAGS: string;
+	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
 	export const TERM: string;
@@ -35,24 +36,25 @@ declare module '$env/static/private' {
 	export const CPPFLAGS: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
+	export const TERM_PROGRAM_VERSION: string;
+	export const npm_package_optional: string;
 	export const COLOR: string;
 	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
 	export const ZSH: string;
-	export const __INTELLIJ_COMMAND_HISTFILE__: string;
 	export const USER: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
+	export const npm_package_peer: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const DENO_INSTALL: string;
-	export const LOGIN_SHELL: string;
 	export const PAGER: string;
+	export const npm_package_integrity: string;
 	export const LSCOLORS: string;
 	export const PATH: string;
-	export const TERMINAL_EMULATOR: string;
 	export const npm_package_json: string;
 	export const npm_config_engine_strict: string;
 	export const _: string;
@@ -65,23 +67,32 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
 	export const npm_package_name: string;
+	export const ITERM_PROFILE: string;
 	export const XPC_FLAGS: string;
+	export const npm_package_engines_node: string;
 	export const npm_config_node_gyp: string;
+	export const npm_package_dev: string;
 	export const npm_package_version: string;
 	export const XPC_SERVICE_NAME: string;
+	export const npm_package_resolved: string;
 	export const PYENV_SHELL: string;
 	export const SHLVL: string;
 	export const HOME: string;
+	export const COLORFGBG: string;
+	export const LC_TERMINAL_VERSION: string;
+	export const npm_package_dev_optional: string;
+	export const ITERM_SESSION_ID: string;
 	export const npm_config_cache: string;
 	export const LESS: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const LC_CTYPE: string;
 	export const npm_config_user_agent: string;
+	export const LC_TERMINAL: string;
 	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
-	export const NODE_ENV: string;
+	export const COLORTERM: string;
 }
 
 /**
@@ -112,6 +123,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		LDFLAGS: string;
+		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
 		TERM: string;
@@ -120,24 +132,25 @@ declare module '$env/dynamic/private' {
 		CPPFLAGS: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
+		TERM_PROGRAM_VERSION: string;
+		npm_package_optional: string;
 		COLOR: string;
 		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
 		ZSH: string;
-		__INTELLIJ_COMMAND_HISTFILE__: string;
 		USER: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
+		npm_package_peer: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		DENO_INSTALL: string;
-		LOGIN_SHELL: string;
 		PAGER: string;
+		npm_package_integrity: string;
 		LSCOLORS: string;
 		PATH: string;
-		TERMINAL_EMULATOR: string;
 		npm_package_json: string;
 		npm_config_engine_strict: string;
 		_: string;
@@ -150,23 +163,32 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_event: string;
 		EDITOR: string;
 		npm_package_name: string;
+		ITERM_PROFILE: string;
 		XPC_FLAGS: string;
+		npm_package_engines_node: string;
 		npm_config_node_gyp: string;
+		npm_package_dev: string;
 		npm_package_version: string;
 		XPC_SERVICE_NAME: string;
+		npm_package_resolved: string;
 		PYENV_SHELL: string;
 		SHLVL: string;
 		HOME: string;
+		COLORFGBG: string;
+		LC_TERMINAL_VERSION: string;
+		npm_package_dev_optional: string;
+		ITERM_SESSION_ID: string;
 		npm_config_cache: string;
 		LESS: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		LC_CTYPE: string;
 		npm_config_user_agent: string;
+		LC_TERMINAL: string;
 		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
-		NODE_ENV: string;
+		COLORTERM: string;
 		[key: string]: string | undefined;
 	}
 }
