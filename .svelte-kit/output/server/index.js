@@ -1929,7 +1929,7 @@ async function respond(request, options, state) {
     cookies,
     getClientAddress: state.getClientAddress || (() => {
       throw new Error(
-        `${"@sveltejs/adapter-static"} does not specify getClientAddress. Please raise an issue`
+        `${"@sveltejs/adapter-node"} does not specify getClientAddress. Please raise an issue`
       );
     }),
     locals: {},
