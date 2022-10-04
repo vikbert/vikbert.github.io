@@ -11,7 +11,7 @@ const config = {
             fallback: null,
         }),
         paths: {
-            base: dev ? '' : '/vikbert.github.io',
+            base: dev ? '' : '',
         },
     },
 };
