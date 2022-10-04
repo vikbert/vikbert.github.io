@@ -43,6 +43,7 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
 	export const ZSH: string;
+	export const __INTELLIJ_COMMAND_HISTFILE__: string;
 	export const USER: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
@@ -51,10 +52,12 @@ declare module '$env/static/private' {
 	export const npm_execpath: string;
 	export const MAKELEVEL: string;
 	export const DENO_INSTALL: string;
+	export const LOGIN_SHELL: string;
 	export const PAGER: string;
 	export const MFLAGS: string;
 	export const LSCOLORS: string;
 	export const PATH: string;
+	export const TERMINAL_EMULATOR: string;
 	export const npm_package_json: string;
 	export const npm_config_engine_strict: string;
 	export const LaunchInstanceID: string;
@@ -136,6 +139,7 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
 		ZSH: string;
+		__INTELLIJ_COMMAND_HISTFILE__: string;
 		USER: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
@@ -144,10 +148,12 @@ declare module '$env/dynamic/private' {
 		npm_execpath: string;
 		MAKELEVEL: string;
 		DENO_INSTALL: string;
+		LOGIN_SHELL: string;
 		PAGER: string;
 		MFLAGS: string;
 		LSCOLORS: string;
 		PATH: string;
+		TERMINAL_EMULATOR: string;
 		npm_package_json: string;
 		npm_config_engine_strict: string;
 		LaunchInstanceID: string;

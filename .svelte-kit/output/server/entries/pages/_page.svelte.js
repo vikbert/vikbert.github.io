@@ -49,7 +49,7 @@ const About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     <p class="${"svelte-15d2g8r"}">Not only individuals and interactions, but also <strong>a community of professionals</strong></p>
     <p class="${"svelte-15d2g8r"}">Not only customer collaboration, but also <strong>productive partnerships</strong></p></div>
 
-  <div class="${"card my-2"}"><div class="${"medien"}"><img src="${"https://raw.githubusercontent.com/vikbert/vikbert.github.io/master/miyaszki.jpg"}" alt="${"miyazaki"}"></div>
+  <div class="${"card my-2"}"><div class="${"medien"}"><img src="${"/miyaszki.jpg"}" alt="${"miyazaki"}"></div>
     <div class="${"content"}">An old friend of &quot;mine&quot; and an Ode to childhood said,
        <p>&quot;In fact, most of the troubles happen when we stop trying to be kids and behave more like grown-ups.&quot;</p>
       <h6><a href="${"https://www.youtube.com/watch?v=1zi7jIZkS68&t=1240s"}" target="${"_blank"}">Hayao miyaszki</a></h6></div></div>

@@ -7,7 +7,7 @@ help:
 .DEFAULT_GOAL := help
 
 #-- build for deployment
-build: ## deploy the project github pages
+deploy: ## deploy the project github pages
 	rm -rf docs/*
 	npm run build
 	cp -R build/* docs/

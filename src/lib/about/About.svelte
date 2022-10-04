@@ -86,7 +86,7 @@
 
   <div class="card my-2">
     <div class="medien">
-      <img src="https://raw.githubusercontent.com/vikbert/vikbert.github.io/master/miyaszki.jpg" alt="miyazaki">
+      <img src="/miyaszki.jpg" alt="miyazaki">
     </div>
     <div class="content">
       An old friend of "mine" and an Ode to childhood said,
