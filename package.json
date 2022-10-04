@@ -24,6 +24,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
-		"@pixss/svelte": "^1.2.2"
+		"@pixss/svelte": "^1.2.2",
+		"@sveltejs/adapter-static": "^1.0.0-next.44"
 	}
 }
