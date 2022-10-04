@@ -1,11 +1,11 @@
 <script>
   import Icon from '../Icon.svelte';
-
+  import { base } from '$app/paths';
   export let title;
   export let info;
   export let demo;
   export let repository;
-  export let screenshot = "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3298&q=80";
+  export let screenshot = "";
   export let tags = ['react', 'svelte', 'vue'];
 </script>
 
@@ -14,7 +14,7 @@
   <div class="content">
     <a href={demo} target="_blank">
       <div class="figure" >
-        <img src={screenshot} alt="">
+        <img src={base + screenshot} alt="">
       </div>
     </a>
     <div class="headline">

@@ -1,17 +1,17 @@
 <script>
     import {page} from '$app/stores';
-    console.log($page.url.pathname);
+    import { base } from '$app/paths';
 </script>
 
 <ul>
     <li>
-        <a href="/"
+        <a href="{base}/"
            class:selected={$page.url.pathname === '/'}
         >About
         </a>
     </li>
     <li>
-        <a href="projects"
+        <a href="{base}/projects"
            class:selected={$page.url.pathname === '/projects'}
         >Projects
         </a>
