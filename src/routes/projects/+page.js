@@ -137,7 +137,7 @@ export function load({}) {
             demo: 'https://lifecalender.vercel.app/',
             repository: 'vikbert/lifecalender-ts',
             tags: ['svelte', 'typescript', 'pixss'],
-            screenshot: '/screenshot/lifecalender-svelte.png',
+            screenshot: '/screenshot/lifecalendar-svelte.png',
         },
         {
             title: 'LifeCalender React',
