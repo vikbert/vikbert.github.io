@@ -16,7 +16,7 @@
 </HeroShape>
 
 <div class="container text-centered">
-    <img class="avatar" src="{base}/me.jpg" alt="about me" />
+    <img class="avatar" src="{base}/vikbert.jpeg" alt="about me" />
     <h1>About Me</h1>
 
     <p>
