@@ -2,7 +2,6 @@
 	import './app.css';
 	import Header from '../lib/header/Header.svelte';
 	export let segment;
-	import { Footer } from '@pixss/svelte';
 </script>
 
 <div class="layout">
@@ -10,5 +9,4 @@
 	<main class="main">
 		<slot/>
 	</main>
-	<Footer/>
 </div>

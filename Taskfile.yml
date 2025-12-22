@@ -15,3 +15,8 @@ tasks:
       - git commit -m "Deploy to GitHub Pages"
       - git push origin master
       - open https://vikbert.github.io/
+      - taskr --list
+  dev:
+    desc: Start development server
+    cmds:
+      - npm run dev
