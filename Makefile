@@ -10,4 +10,7 @@ help:
 deploy: ## deploy the project github pages
 	rm -rf docs/*
 	npm run build
-	cp -R build/* docs/
+	cp -r public/* docs/
+    git checkout -b gh-pages
+    git add.
+    git commit -m "Deploy to GitHub Pages"
