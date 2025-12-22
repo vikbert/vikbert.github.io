@@ -7,6 +7,7 @@ tasks:
   deploy:
     desc: Deploy to GitHub Pages
     cmds:
+      - rm -rf docs/*
       - npm run build
       - git add .
       - git commit -m "Deploy to GitHub Pages"
