@@ -21,10 +21,6 @@
 </div>
 
 <style>
-	span.orange {
-		color: rgb(238, 144, 22);
-		font-size: 30px;
-	}
 	.container {
 		max-width: 112rem !important;
 	}
