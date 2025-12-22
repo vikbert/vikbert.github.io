@@ -21,9 +21,7 @@
 
     <p>
         Hi, I'm
-        <strong>Vikbert</strong> from Berlin. This cybername comes from the names of
-        my two kids:
-        <strong>Vik</strong>toria & Al<strong>bert</strong>.
+        <strong>vikbert</strong> from Berlin.
     </p>
     <p>
         I work as a software engineer since 2010, after my "Diplom Informatik" study
@@ -63,12 +61,12 @@
     </p>
 
     <p>
-        In my spare time, I just jump out of the world of <strong
-    >server-side programming</strong
-    >
-        and do some reactive & functional programming in open-source world with
-        <strong>TypeScript</strong>, <strong>React.js</strong>,
-        <strong>Svelte.js</strong>, and <strong>Firebase</strong>.
+        In recent years, I have focused primarily on cloud computing and Golang development, 
+        building scalable and high-performance backend systems. I enjoy working with Go's 
+        simplicity and efficiency for microservices and distributed architectures. Meanwhile, 
+        I continue exploring frontend technologies—experimenting with TypeScript, React.js, 
+        Svelte.js, and Firebase in open-source projects, keeping myself versatile and 
+        open to new possibilities.
     </p>
 
     <div class="centered-xy">
